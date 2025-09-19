@@ -1,8 +1,8 @@
 # Driven Micro Domain Starter Kit
 
-A complete working implementation and starter template for building domain-driven microservices using the [Driven Micro Framework](https://github.com/your-org/driven-micro-framework). This repository demonstrates a full CQRS + Event Sourcing workflow with production-ready patterns.
+A complete working implementation and starter template for building domain-driven microservices using the [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro-framework). This repository demonstrates a full CQRS + Event Sourcing workflow with production-ready patterns.
 
-**Why I Built This**: I created this starter kit and the underlying [Driven Micro Framework](https://github.com/your-org/driven-micro-framework) after repeatedly rewriting the same architectural patterns for each new microservice. Instead of starting from scratch every time, this framework handles the core application architecture and message bus flow.
+**Why I Built This**: I created this starter kit and the underlying [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro-framework) after repeatedly rewriting the same architectural patterns for each new microservice. Instead of starting from scratch every time, this framework handles the core application architecture and message bus flow.
 
 **How to Use**: Clone this starter kit to begin a new project. You'll implement your business logic in the domain layer while the framework manages the CQRS/Event Sourcing infrastructure.
 
@@ -121,7 +121,7 @@ src/domain/
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/your-org/driven-micro-domain.git my-microservice
+git clone https://github.com/OffRoadCodeMode/driven-micro-domain.git my-microservice
 cd my-microservice
 npm install
 ```
@@ -403,7 +403,7 @@ export DOMAIN_TABLE_NAME=local-domain-table
 
 ## Framework Integration
 
-This starter kit uses the [Driven Micro Framework](https://github.com/your-org/driven-micro):
+This starter kit uses the [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro):
 
 ```typescript
 // All framework imports use the package name
