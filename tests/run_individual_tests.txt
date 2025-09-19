@@ -1,0 +1,35 @@
+# Individual Test Commands
+# Run each command from /home/nomad/code/webwatch/driven_micro/src/domain directory
+# Copy and paste each line to run individual tests
+
+# E2E Tests
+npm test -- tests/e2e/api.test.ts
+
+# Integration Tests
+npm test -- tests/integration/adapters/DynamoDBDomainRepository.test.ts
+npm test -- tests/integration/service/DynamoDBUnitOfWork.test.ts
+
+# Unit Tests - Handlers - Commands
+npm test -- tests/unit/handlers/commands/ActCommandHandler.test.ts
+npm test -- tests/unit/handlers/commands/CreateCommandHandler.test.ts
+npm test -- tests/unit/handlers/commands/StoreCommandHandler.test.ts
+
+# Unit Tests - Handlers - Events
+npm test -- tests/unit/handlers/events/DomainActedHandler.test.ts
+npm test -- tests/unit/handlers/events/DomainCreatedHandler.test.ts
+npm test -- tests/unit/handlers/events/DomainStoredHandler.test.ts
+
+# Unit Tests - Messages - Commands
+npm test -- tests/unit/messages/commands/ActCommand.test.ts
+npm test -- tests/unit/messages/commands/CreateCommand.test.ts
+npm test -- tests/unit/messages/commands/StoreCommand.test.ts
+
+# Unit Tests - Messages - Events
+npm test -- tests/unit/messages/events/DomainActed.test.ts
+npm test -- tests/unit/messages/events/DomainCreated.test.ts
+npm test -- tests/unit/messages/events/DomainFailed.test.ts
+npm test -- tests/unit/messages/events/DomainStored.test.ts
+
+# Unit Tests - Models
+npm test -- tests/unit/models/Domain.test.ts
+npm test -- tests/unit/models/Request.test.ts
