@@ -1,10 +1,10 @@
 # Driven Micro Domain Starter Kit
 
-A complete working implementation and starter template for building domain-driven microservices using the [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro-framework). This repository demonstrates a full CQRS + Event Sourcing workflow with production-ready patterns.
+A complete working implementation and starter template for building domain-driven microservices using the [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro-framework).
 
 **Why I Built This**: I created this starter kit and the underlying [Driven Micro Framework](https://github.com/OffRoadCodeMode/driven-micro-framework) after repeatedly rewriting the same architectural patterns for each new microservice. Instead of starting from scratch every time, this framework handles the core application architecture and message bus flow.
 
-**How to Use**: Clone this starter kit to begin a new project. You'll implement your business logic in the domain layer while the framework manages the CQRS/Event Sourcing infrastructure.
+**How to Use**: Clone this starter kit to begin a new project. You'll implement your business logic in the domain layer while the framework manages the CQRS/Event Driven infrastructure using an internal message bus and depedency injection.
 
 **Current State**: The framework includes a DynamoDB persistence adapter, with plans for additional adapters covering LLM clients, file storage systems, and external services. Custom adapters are welcome—PRs accepted for both framework interfaces and concrete implementations.
 
