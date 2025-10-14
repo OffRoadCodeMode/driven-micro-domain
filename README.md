@@ -51,7 +51,7 @@ graph LR
 - **Events**: `DomainCreated`, `DomainActed`, `DomainStored`, `DomainFailed`
 - **Clear separation** between state changes (commands) and notifications (events)
 
-#### **2. Event Sourcing**
+#### **2. Event Sourcing** (event persistence to be implemented soon..)
 - **Event-driven workflow** where each step triggers the next
 - **Domain events** capture state changes and drive business processes
 - **Event handlers** orchestrate workflow progression
